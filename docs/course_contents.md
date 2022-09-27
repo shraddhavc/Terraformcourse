@@ -1,0 +1,70 @@
+## Terraform
+
+- [ ] Introduction to IaC
+    - [ ] Challanges in Traditional Infrastruecture
+    - [ ] Types of IaC
+    - [ ] Why Terraform
+- [ ] Terraform Prerequisites
+    - [ ] Terraform Installation
+    - [ ] Managing Multiple Terraform Versions
+    - [ ] VS Code Installation
+    - [ ] Setting Azure SP
+- [ ] Hashicorp Configuration Language
+    - [ ] Language Basics
+    - [ ] Terraform CLI Basics
+- [ ] Basics
+    - [ ] Terraform Providers
+    - [ ] Basic Terraform Code with Detailed Explaination
+    - [ ] Terraform Variables
+    - [ ] Input Variables
+    - [ ] Terraform Outputs
+- [ ] Core Workflow
+    - [ ] init
+    - [ ] validate
+    - [ ] fmt
+    - [ ] plan
+    - [ ] apply
+    - [ ] destroy
+- [ ] Meta-Arguments
+    - [ ] depends-on
+    - [ ] count
+    - [ ] provider
+    - [ ] for-each
+    - [ ] lifecycle
+- [ ] Provisioners
+    - [ ] What are provisioners?
+    - [ ] file
+    - [ ] local-exec
+    - [ ] remote-exec
+- [ ] Data Sources
+- [ ] Modules
+    - [ ] Module Development
+    - [ ] Best Practices
+    - [ ] Publishing the Modules
+    - [ ] Refactoring and Versioning Modules
+- [ ] Terraform Functions and Expressions
+    - [ ] Types
+    - [ ] References to the values
+    - [ ] Operators
+        - [ ] Arithmetic
+        - [ ] Equality
+        - [ ] Comparision
+        - [ ] Logical
+    - [ ] Funstions 
+    - [ ] Expressions
+        - [ ] Conditional
+        - [ ] For
+        - [ ] Splat
+    - [ ] Dynamic Blocks
+    - [ ] Validations
+    - [ ] Type Constraints
+    - [ ] Version Constraints
+- [ ] Terraform State
+    - [ ] Terraform Backend and Configurations
+    - [ ] local and remote
+    - [ ] State Management
+- [ ] Going Beyond Core Workflow
+    - [ ] Import existing infrastructure
+- [ ] Workspaces
+- [ ] Writing tests for IaC (Optional)
+- [ ] Run security analysis on your configurations
