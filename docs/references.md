@@ -7,3 +7,9 @@
     [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 - Azure Cli Installation: 
     [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+- tfenv Installation:
+    [https://github.com/tfutils/tfenv](https://github.com/tfutils/tfenv)
+
+
+- Terraform Azure Provider
+    [https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
