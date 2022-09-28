@@ -1,20 +1,20 @@
 ## Terraform
 
-- [ ] Introduction to IaC
-    - [ ] Challanges in Traditional Infrastruecture
-    - [ ] Types of IaC
-    - [ ] Why Terraform
-- [ ] Terraform Prerequisites
-    - [ ] Terraform Installation
-    - [ ] Managing Multiple Terraform Versions
-    - [ ] VS Code Installation
-    - [ ] Setting Azure SP
+- [X] Introduction to IaC
+    - [X] Challenges in Traditional Infrastructure
+    - [X] Types of IaC
+    - [X] Why Terraform
+- [X] Terraform Prerequisites
+    - [X] Terraform Installation
+    - [X] Managing Multiple Terraform Versions
+    - [X] VS Code Installation
+    - [X] Setting Azure SP
 - [ ] Hashicorp Configuration Language
     - [ ] Language Basics
     - [ ] Terraform CLI Basics
 - [ ] Basics
     - [ ] Terraform Providers
-    - [ ] Basic Terraform Code with Detailed Explaination
+    - [ ] Basic Terraform Code with Detailed Explanation
     - [ ] Terraform Variables
     - [ ] Input Variables
     - [ ] Terraform Outputs
