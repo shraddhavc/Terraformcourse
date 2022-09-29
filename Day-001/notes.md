@@ -41,12 +41,12 @@ az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<SUBSCRIP
         ```
 
 ### Assignment: 
-Try to authenticate using different methodes as given in the documentation
+Try to authenticate using different methods as given in the documentation
 https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#authenticating-to-azure
 
 
 ## How to call azure apis?
-Get the access token and sunscription id.
+Get the access token and subscription id.
 ```
 token=$(az account get-access-token | jq -r ".accessToken")
 subscriptionId=$(az account show | jq ".id" -r)
@@ -56,7 +56,7 @@ Azure api to get list of resource groups
 curl -s -X GET -H "Authorization: Bearer ${token}" -H "Content-Type:application/json" -H "Accept:application/json" \
 https://management.azure.com/subscriptions/${subscriptionId}/resourcegroups?api-version=2021-04-01 | jq -r ".value[].name"
 ```
-Azure api to create a resoure group
+Azure api to create a resource group
 ```
 resourceGroupName=my-demo-rg
 
@@ -64,7 +64,7 @@ curl -i -X PUT -H "Authorization: Bearer ${token}" -H "Content-Type:application/
 https://management.azure.com/subscriptions/${subscriptionId}/resourcegroups/${resourceGroupName}?api-version=2021-04-01 \
 --data '{"location": "westeurope", "tags": {"CostCenter": "15256-12"}}'
 ```
-Azure api to create a resoure group
+Azure api to create a resource group
 ```
 resourceGroupName=my-demo-rg
 
