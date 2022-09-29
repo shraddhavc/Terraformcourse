@@ -18,6 +18,7 @@
     - [ ] Terraform Variables
     - [ ] Input Variables
     - [ ] Terraform Outputs
+    - [ ] locals
 - [ ] Core Workflow
     - [ ] init
     - [ ] validate
