@@ -13,8 +13,8 @@
     - [ ] Language Basics
     - [ ] Terraform CLI Basics
 - [ ] Basics
-    - [ ] Terraform Providers
-    - [ ] Basic Terraform Code with Detailed Explanation
+    - [X] Terraform Providers
+    - [X] Basic Terraform Code with Detailed Explanation
     - [ ] Terraform Variables
     - [ ] Input Variables
     - [ ] Terraform Outputs
