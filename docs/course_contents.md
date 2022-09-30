@@ -15,10 +15,10 @@
 - [ ] Basics
     - [X] Terraform Providers
     - [X] Basic Terraform Code with Detailed Explanation
-    - [ ] Terraform Variables
-    - [ ] Input Variables
+    - [X] Terraform Variables
+    - [X] Input Variables
     - [ ] Terraform Outputs
-    - [ ] locals
+    - [X] locals
 - [ ] Core Workflow
     - [ ] init
     - [ ] validate
@@ -49,9 +49,9 @@
     - [ ] Operators
         - [ ] Arithmetic
         - [ ] Equality
-        - [ ] Comparision
+        - [ ] Comparison
         - [ ] Logical
-    - [ ] Funstions 
+    - [ ] Functions 
     - [ ] Expressions
         - [ ] Conditional
         - [ ] For
