@@ -9,15 +9,15 @@
     - [X] Managing Multiple Terraform Versions
     - [X] VS Code Installation
     - [X] Setting Azure SP
-- [ ] Hashicorp Configuration Language
-    - [ ] Language Basics
+- [X] Hashicorp Configuration Language
+    - [X] Language Basics
     - [ ] Terraform CLI Basics
-- [ ] Basics
+- [X] Basics
     - [X] Terraform Providers
     - [X] Basic Terraform Code with Detailed Explanation
     - [X] Terraform Variables
     - [X] Input Variables
-    - [ ] Terraform Outputs
+    - [X] Terraform Outputs
     - [X] locals
 - [ ] Core Workflow
     - [ ] init
