@@ -1,0 +1,10 @@
+variable "resource_group_name" {}
+variable "location" {}
+variable "security_group_name" {}
+variable "virtual_network_name" {}
+variable "virtual_network_address_space" {}
+variable "dns_servers" {}
+variable "subnet1_name" {}
+variable "subnet2_name" {}
+variable "subnet1_address_prefix" {}
+variable "subnet2_address_prefix" {}
