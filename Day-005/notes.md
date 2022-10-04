@@ -80,8 +80,10 @@ variable "all_marks" {
     type = set(number)
     default = [67, 86, 84, 79]
 }
+```
 
 ### tuple
+```terraform
 variable "anything" {
     description = "anything"
     type = tuple
