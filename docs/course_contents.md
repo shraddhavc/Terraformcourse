@@ -44,8 +44,8 @@
     - [ ] Publishing the Modules
     - [ ] Refactoring and Versioning Modules
 - [ ] Terraform Functions and Expressions
-    - [ ] Types
-    - [ ] References to the values
+    - [X] Types
+    - [X] References to the values
     - [ ] Operators
         - [ ] Arithmetic
         - [ ] Equality
