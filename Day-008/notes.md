@@ -3,4 +3,4 @@
 - [time](https://registry.terraform.io/providers/hashicorp/time/latest/docs)
 
 ### Assignment
-Create a windows virtual machine and use `file`, `local-exec` and `remote-exec` provider
+Create a windows virtual machine and use `file`, `local-exec` and `remote-exec` provisioner
