@@ -11,7 +11,7 @@
     - [X] Setting Azure SP
 - [X] Hashicorp Configuration Language
     - [X] Language Basics
-    - [ ] Terraform CLI Basics
+    - [X] Terraform CLI Basics
 - [X] Basics
     - [X] Terraform Providers
     - [X] Basic Terraform Code with Detailed Explanation
@@ -19,27 +19,27 @@
     - [X] Input Variables
     - [X] Terraform Outputs
     - [X] locals
-- [ ] Core Workflow
-    - [ ] init
-    - [ ] validate
-    - [ ] fmt
-    - [ ] plan
-    - [ ] apply
-    - [ ] destroy
+- [X] Core Workflow
+    - [X] init
+    - [X] validate
+    - [X] fmt
+    - [X] plan
+    - [X] apply
+    - [X] destroy
 - [ ] Meta-Arguments
     - [ ] depends-on
     - [ ] count
     - [ ] provider
     - [ ] for-each
     - [ ] lifecycle
-- [ ] Provisioners
-    - [ ] What are provisioners?
-    - [ ] file
-    - [ ] local-exec
-    - [ ] remote-exec
-- [ ] Data Sources
+- [X] Provisioners
+    - [X] What are provisioners?
+    - [X] file
+    - [X] local-exec
+    - [X] remote-exec
+- [X] Data Sources
 - [ ] Modules
-    - [ ] Module Development
+    - [X] Module Development
     - [ ] Best Practices
     - [ ] Publishing the Modules
     - [ ] Refactoring and Versioning Modules
