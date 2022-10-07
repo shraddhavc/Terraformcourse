@@ -130,12 +130,12 @@ resource "azurerm_virtual_machine" "example" {
   # file provisioner
   provisioner "file" {
     connection {
-      type = "ssh"
-      host = azurerm_public_ip.example.ip_address
-      user = var.os_profile["admin_username"]
+      type        = "ssh"
+      host        = azurerm_public_ip.example.ip_address
+      user        = var.os_profile["admin_username"]
       private_key = tls_private_key.example.private_key_pem
     }
-    source = "${path.module}/scripts/install.sh"
+    source      = "${path.module}/scripts/install.sh"
     destination = "/home/${var.os_profile["admin_username"]}/install.sh"
   }
 
@@ -147,9 +147,9 @@ resource "azurerm_virtual_machine" "example" {
   # remote-exec provisioner
   provisioner "remote-exec" {
     connection {
-      type = "ssh"
-      host = azurerm_public_ip.example.ip_address
-      user = var.os_profile["admin_username"]
+      type        = "ssh"
+      host        = azurerm_public_ip.example.ip_address
+      user        = var.os_profile["admin_username"]
       private_key = tls_private_key.example.private_key_pem
     }
 

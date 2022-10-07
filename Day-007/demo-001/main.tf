@@ -32,7 +32,7 @@ module "server" {
 }
 
 output "admin_username" {
-  value = module.server.virtual_machine_username
+  value     = module.server.virtual_machine_username
   sensitive = true
 }
 
@@ -41,6 +41,6 @@ output "public_ip" {
 }
 
 output "private_key" {
-  value = module.server.tls_private_key
+  value     = module.server.tls_private_key
   sensitive = true
 }

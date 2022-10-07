@@ -5,7 +5,7 @@ output "virtual_machine_public_ip" {
 
 output "virtual_machine_username" {
   description = "Virtual machine username"
-  value = var.os_profile["admin_username"]
+  value       = var.os_profile["admin_username"]
 
   sensitive = true
 }
