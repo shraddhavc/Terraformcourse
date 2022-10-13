@@ -1,0 +1,47 @@
+variable "groups" {
+    default = {
+        alpha   = "westeurope"
+        beta    = "eastus"
+        charlie = "mumbai"
+    }
+}
+
+resource "azurerm_resource_group" "this" {
+    for_each = var.groups
+    name     = each.key
+    location = each.value
+}
+----------------------------------------------------------------
+
+No of elements : 3
+
+"each" is  internal variable of for loop
+
+----------------------------------------------------------------
+iteration 1 --> "each" --> alpha = "westeurope"
+                each.key = "alpha"
+                each.value = "westeurope"
+
+resource "azurerm_resource_group" "this" {
+    name     = "alpha"
+    location = "westeurope"
+}
+----------------------------------------------------------------
+iteration 2 --> "each" --> beta = "eastus"
+                each.key = "bata"
+                each.value = "eastus"
+
+resource "azurerm_resource_group" "this" {
+    name     = "beta"
+    location = "eastus"
+}
+
+----------------------------------------------------------------
+iteration 3 --> "each" -->  charlie = "mumbai"
+                each.key = "charlie"
+                each.value = "mumbai"
+
+resource "azurerm_resource_group" "this" {
+    name     = "charlie"
+    location = "mumbai"
+}
