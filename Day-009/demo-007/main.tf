@@ -14,12 +14,12 @@ resource "azurerm_resource_group" "that" {
 
   lifecycle {
     prevent_destroy = true
-    ignore_changes = [tags, ]
+    ignore_changes  = [tags, ]
   }
 }
 
 data "azurerm_resource_group" "this" {
-  name     = "rg-alpha"
+  name = "rg-alpha"
 }
 
 resource "azurerm_virtual_network" "this" {
