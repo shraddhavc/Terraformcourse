@@ -25,7 +25,7 @@ data "azurerm_resource_group" "this" {
 }
 
 resource "azurerm_network_security_group" "this" {
-  count = length(var.subnets)
+  count               = length(var.subnets)
   location            = data.azurerm_resource_group.this.location
   name                = "vnet-count-example-${count.index}"
   resource_group_name = data.azurerm_resource_group.this.name
