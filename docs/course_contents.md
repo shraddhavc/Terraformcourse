@@ -26,12 +26,12 @@
     - [X] plan
     - [X] apply
     - [X] destroy
-- [ ] Meta-Arguments
-    - [ ] depends-on
-    - [ ] count
-    - [ ] provider
-    - [ ] for-each
-    - [ ] lifecycle
+- [X] Meta-Arguments
+    - [X] depends-on
+    - [X] count
+    - [X] provider
+    - [X] for-each
+    - [X] lifecycle
 - [X] Provisioners
     - [X] What are provisioners?
     - [X] file
@@ -47,19 +47,19 @@
     - [X] Types
     - [X] References to the values
     - [ ] Operators
-        - [ ] Arithmetic
-        - [ ] Equality
-        - [ ] Comparison
-        - [ ] Logical
-    - [ ] Functions 
+        - [X] Arithmetic
+        - [X] Equality
+        - [X] Comparison
+        - [X] Logical
+    - [X] Functions 
     - [ ] Expressions
         - [ ] Conditional
         - [ ] For
         - [ ] Splat
-    - [ ] Dynamic Blocks
-    - [ ] Validations
-    - [ ] Type Constraints
-    - [ ] Version Constraints
+    - [X] Dynamic Blocks
+    - [X] Validations
+    - [X] Type Constraints
+    - [X] Version Constraints
 - [ ] Terraform State
     - [ ] Terraform Backend and Configurations
     - [ ] local and remote
