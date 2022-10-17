@@ -4,10 +4,10 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name = "terraform-resources"
+    resource_group_name  = "terraform-resources"
     storage_account_name = "projectalphaterraformbackends"
-    container_name = "tfstates"
-    key = "terraform.tfstate"
+    container_name       = "tfstates"
+    key                  = "terraform.tfstate"
   }
 }
 
