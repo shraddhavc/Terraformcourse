@@ -43,29 +43,29 @@
     - [ ] Best Practices
     - [ ] Publishing the Modules
     - [ ] Refactoring and Versioning Modules
-- [ ] Terraform Functions and Expressions
+- [X] Terraform Functions and Expressions
     - [X] Types
     - [X] References to the values
-    - [ ] Operators
+    - [X] Operators
         - [X] Arithmetic
         - [X] Equality
         - [X] Comparison
         - [X] Logical
     - [X] Functions 
-    - [ ] Expressions
-        - [ ] Conditional
-        - [ ] For
-        - [ ] Splat
+    - [X] Expressions
+        - [X] Conditional
+        - [X] For
+        - [X] Splat
     - [X] Dynamic Blocks
     - [X] Validations
     - [X] Type Constraints
     - [X] Version Constraints
-- [ ] Terraform State
-    - [ ] Terraform Backend and Configurations
-    - [ ] local and remote
-    - [ ] State Management
+- [X] Terraform State
+    - [X] Terraform Backend and Configurations
+    - [X] local and remote
+    - [X] State Management
 - [ ] Going Beyond Core Workflow
     - [ ] Import existing infrastructure
-- [ ] Workspaces
+- [X] Workspaces
 - [ ] Writing tests for IaC (Optional)
 - [ ] Run security analysis on your configurations
