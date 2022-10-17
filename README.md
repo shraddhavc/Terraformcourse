@@ -31,3 +31,5 @@ git pull
 - [Session-10](./Day-010/notes.md)
 - [Session-11](./Day-011/notes.md)
 - [Session-12](./Day-012/notes.md)
+- [Session-13](./Day-013/notes.md)
+- [Session-14](./Day-014/notes.md)
