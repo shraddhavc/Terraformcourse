@@ -38,11 +38,11 @@
     - [X] local-exec
     - [X] remote-exec
 - [X] Data Sources
-- [ ] Modules
+- [X] Modules
     - [X] Module Development
-    - [ ] Best Practices
-    - [ ] Publishing the Modules
-    - [ ] Refactoring and Versioning Modules
+    - [X] Best Practices
+    - [X] Publishing the Modules
+    - [X] Refactoring and Versioning Modules
 - [X] Terraform Functions and Expressions
     - [X] Types
     - [X] References to the values
@@ -64,8 +64,8 @@
     - [X] Terraform Backend and Configurations
     - [X] local and remote
     - [X] State Management
-- [ ] Going Beyond Core Workflow
-    - [ ] Import existing infrastructure
+- [X] Going Beyond Core Workflow
+    - [X] Import existing infrastructure
 - [X] Workspaces
 - [ ] Writing tests for IaC (Optional)
-- [ ] Run security analysis on your configurations
+- [X] Run security analysis on your configurations
